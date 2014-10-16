@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<title>my table</title>
+	<link href="stylesheet/index2.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<div id="wrap">
+	<div id="top">
+		<a href="">로그인</a> | 
+		<a href="">회원가입</a>
+	</div>
+	<div id="header">
+		<div id="header_top">
+			<div id="header_right">
+				<form action="#">
+					<input type="text" name="search" id="search">
+					<input type="submit" value="Search" id="search_button">
+				</form>
+			</div>
+		</div>
+		<div id="navbar">
+			<ul>
+				<li><a href="./index.html">HOME</a></li>
+				<li><a href="./index1.html">프로필</a></li>
+				<li><a href="./index2.html" class="selected">시간표</a></li>
+				<li><a href="./index3.html">설문조사</a></li>
+			</ul>
+		</div>
+		<div id="line"></div>
+	</div>
+
+	<div id="content">
+		<div id = "main_content_top">
+			<h1>나의 시간표</h1>
+		</div>
+		<div id = "main_content_middle">	
+			<table border = "1">
+				<thead>
+					<tr>
+						<th>교시/요일</th>
+						<th>월</th>
+						<th>화</th>
+						<th>수</th>
+						<th>목</th>
+						<th>금</th>
+					</tr>
+				</thead>
+
+				<tbody>	
+					<tr>
+						<td><b>1교시</b></td>
+						<td colspan = "5"></td>
+					</tr>
+					<tr>
+						<td><b>2교시</b></td>
+						<td>선형대수학</td>
+						<td>멀티미디어</td>
+						<td>선형대수학</td>
+						<td></td>
+						<td>선형대수학</td>
+					</tr>
+					<tr>
+						<td><b>3교시</b></td>
+						<td>채플</td>
+						<td rowspan = "2"></td>
+						<td>고급객체지향프로그래밍</td>
+						<td><span class = "red"><b>웹프로그래밍</b></span></td>
+						<td rowspan = "2"></td>
+					</tr>
+					<tr>
+						<td><b>4교시</b></td>
+						<td></td>
+						<td>세계화와 사회변화</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>5교시</b></td>
+						<td rowspan = "2">고급객체지향프로그래밍</td>
+						<td rowspan = "2"><span class = "red"><b>웹프로그래밍</b></span></td>
+						<td rowspan = "7"></td>
+						<td rowspan = "2">멀티미디어</td>
+						<td rowspan = "2">세계화와 사회변화</td>
+					</tr>
+					<tr>
+						<td><b>6교시</b></td>
+					</tr>
+					<tr>
+						<td><b>7교시</b></td>
+						<td rowspan = "5"></td>
+						<td rowspan = "2">이산수학</td>
+						<td>이산수학</td>
+						<td rowspan = "5"></td>
+					</tr>
+					<tr>
+						<td><b>8교시</b></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>9교시</b></td>
+						<td rowspan = "3">팀프로젝트1</td>
+						<td rowspan = "2">컴퓨터공학콜로키움</td>
+					</tr>
+					<tr>
+						<td><b>10교시</b></td>
+					</tr>
+					<tr>
+						<td><b>11교시</b></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="footer">
+
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적 고지 | 고객센터 </p>
+			<p>
+			Copyright © eunjung. All rights reserved.
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

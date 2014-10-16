@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<title>survey</title>
+		<link href="stylesheet/index3.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<div id="wrap">
+	<div id="top">
+		<a href="">로그인</a> | 
+		<a href="">회원가입</a>
+	</div>
+	<div id="header">
+		<div id="header_top">
+			<div id="header_right">
+				<form action="#">
+					<input type="text" name="search" id="search">
+					<input type="submit" value="Search" id="search_button">
+				</form>
+			</div>
+		</div>
+		<div id="navbar">
+			<ul>
+				<li><a href="./index.html">HOME</a></li>
+				<li><a href="./index1.html">프로필</a></li>
+				<li><a href="./index2.html">시간표</a></li>
+				<li><a href="./index3.html" class="selected">설문조사</a></li>
+			</ul>
+		</div>
+		<div id="line"></div>
+	</div>
+	<div id="content">
+		<div id = "main_content_top">
+			<h1>설문조사</h1>
+		</div>
+		<div id = "main_content_middle">
+			<form action = "#" method = "post">
+				<ol>
+					<li>
+						<input type = "hidden" name = "type"/>
+						이름: <input type = "text" name = "name" size = "10"/>
+					</li>
+					<li>
+						성별: 
+						<input type = "radio" name = "sex"/>남
+						<input type = "radio" name = "sex"/>여
+					</li>
+					<li>
+						생년: <input type = "text" name = "year" size = "5"/>년
+						월: <select name = "month">
+						<option value = "Jan.">1월</option>
+						<option value = "Feb.">2월</option>
+						<option value = "Mar.">3월</option>
+						<option value = "Apr.">4월</option>
+						<option value = "May.">5월</option>
+						<option value = "Jun.">6월</option>
+						<option value = "Jul.">7월</option>
+						<option value = "Aug.">8월</option>
+						<option value = "Sep.">9월</option>
+						<option value = "Oct.">10월</option>
+						<option value = "Nov.">11월</option>
+						<option value = "Dec.">12월</option>
+						</select>
+						일: <input type = "text" name = "day" size = "5"/>일
+					</li>
+					<li>
+						사진 : <input type = "file" name = "photo"/>
+					</li>
+					<li>
+						대학:
+						<input type = "checkbox" name = "university"/>인문대학
+						<input type = "checkbox" name = "university"/>경영대학
+						<input type = "checkbox" name = "university"/>사회과학대학
+						<input type = "checkbox" name = "university"/>법과대학
+						<br/>
+						<input type = "checkbox" name = "university"/>자연과대학
+						<input type = "checkbox" name = "university"/>공과대학
+						<input type = "checkbox" name = "university"/>예술체육대학
+						<input type = "checkbox" name = "university"/>건축대학
+					<li>
+						이메일: <input type = "text" name = "mail" size = "20"/>
+					</li>
+					<li>
+						소개: <br/>
+						<textarea cols = "30" rows = "5" name = "intro"></textarea><br/>
+					</li>
+				</ol>
+				<input type="submit" value="완료">
+			</form>
+		</div>
+		<div id="footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적 고지 | 고객센터 </p>
+			<p>
+			Copyright © eunjung. All rights reserved.
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
